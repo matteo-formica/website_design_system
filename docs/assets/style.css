@@ -1,0 +1,295 @@
+/*   site basic style   */
+
+html{
+    margin: 0;
+    border: 0;
+    width: 100%; 
+    min-width: 400px;
+}
+ body{
+    margin: 0;
+    width: 100%;
+    height: 60em;
+    min-width: 1vh;
+    background-color: rgb(241, 235, 213);
+ }
+
+
+/* header style */
+
+
+
+header{
+    width: 100%;
+    height: 5em;
+    min-width: 400px;
+    background-color: rgb(238, 210, 168);
+    border-bottom: 0.5px solid black;
+    position: relative;
+    z-index: 10;
+}
+
+.logo img{
+    width: 40px;
+    min-width: 70px;
+    border-radius: 80px;
+    position: relative;
+    top: 0.25em; 
+    left: 2%;
+    border: 1px solid black;
+}
+
+.menu{
+    display: inline;
+    width: 30%;
+    bottom: 60px;
+    text-align: right;
+    position: relative;
+    right: 2%;
+
+}
+
+.menu li{
+    display: inline;
+    width: 100%;
+    margin-left: 0.8em;
+    font-size: 14px;
+    font-family: monospace;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+}
+
+.menu a:hover{
+    color: rgb(245, 245, 245);
+}
+
+/* main style */
+
+#introduction{
+    margin: 90px;
+    text-align: center;
+    background-color: rgb(238, 210, 168);
+    padding: 30px 15px 30px 15px;
+    border-radius: 70px;
+    font-size: larger;
+    font-family: monospace;
+}
+
+.colors{
+    text-align: left;
+    font-size: 18px;
+    margin-top: 120px;
+    margin-left: 50px;
+    text-decoration: overline;
+    font-family: monospace;
+
+}
+
+.gradient{
+    position: relative;
+    margin: 0 100px 0 100px;
+    
+}
+#gradblue{
+    display: inline-block;
+    margin-top: 70px;
+    margin-right: 70px;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    padding: 30px;
+    border: 0.5px solid black;
+    border-radius: 10px;
+}
+
+.colorbox{
+    display: flex;
+}
+
+.lightblue{
+    width: 90px;
+    height: 90px;
+    background-color: lightblue;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.blue{
+    width: 90px;
+    height: 90px;
+    background-color: blue;
+    margin: 0 10px 0 10px;
+    border-radius: 10px;
+}
+
+.oceanblue{
+    width: 90px;
+    height: 90px;
+    background-color: darkblue;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+#gradpurple{
+    display: inline-block;
+    margin-top: 70px;
+    margin-right: 70px;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    padding: 30px;
+    border: 0.5px solid black;
+    border-radius: 10px;
+}
+
+.colorbox{
+    display: flex;
+}
+
+.lightpurple{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(237, 129, 237);
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.purple{
+    width: 90px;
+    height: 90px;
+    background-color: purple;
+    margin: 0 10px 0 10px;
+    border-radius: 10px;
+}
+
+.darkpurple{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(66, 3, 66);
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+#gradorange{
+    display: inline-block;
+    margin-top: 70px;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    padding: 30px;
+    border: 0.5px solid black;
+    border-radius: 10px;
+}
+
+.colorbox{
+    display: flex;
+}
+
+.lightorange{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(238, 190, 102);
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.orange{
+    width: 90px;
+    height: 90px;
+    background-color: orange;
+    margin: 0 10px 0 10px;
+    border-radius: 10px;
+}
+
+.darkorange{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(204, 116, 0);
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+
+.fonts{
+    text-align: left;
+    font-size: 18px;
+    margin-top: 120px;
+    margin-left: 50px;
+    margin-bottom: 70px;
+    text-decoration: overline;
+    font-family: monospace;
+}
+
+.family{
+    display: inline-block;
+    position: relative;
+    margin: 0 0 0 100px;
+    padding: 30px;
+    width: 300px;
+    border: 0.5px solid black;
+    border-radius: 10px;
+}
+
+#monospace{
+    font-family: monospace;
+    font-size: larger;
+}
+#monospace > p{
+    display: inline;
+    margin-left: 40px;
+    font-size: 30px;
+    line-height: 80px;
+}
+
+.family2{
+    display: inline-block;
+    position: relative;
+    margin: 0 0 0 70px;
+    padding: 30px;
+    width: 300px;
+    border: 0.5px solid black;
+    border-radius: 10px;
+}
+
+#robotomono{
+    font-family: 'Roboto Mono', monospace;
+    
+}
+#robotomono > p{
+    display: inline;
+    margin-left: 40px;
+    font-size: 30px;
+    line-height: 80px;
+}
+
+.family3{
+    display: inline-block;
+    position: relative;
+    margin: 0 0 0 70px;
+    padding: 30px;
+    width: 300px;
+    border: 0.5px solid black;
+    border-radius: 10px;
+}
+
+#brush{
+    font-family: 'Comforter Brush';
+    font-size: larger;
+    
+}
+#brush > p{
+    display: inline;
+    margin-left: 40px;
+    font-size: 30px;
+    line-height: 80px;
+}
+
+footer{
+    margin-top: 80px;
+    background-color: rgb(238, 210, 168);
+    text-align: center;
+    padding: 40px;
+}
