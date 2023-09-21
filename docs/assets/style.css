@@ -276,10 +276,9 @@ header{
 }
 
 #brush{
-    font-family: 'Comforter Brush';
-    font-size: larger;
-    
+    font-family: 'Comforter Brush';    
 }
+
 #brush > p{
     display: inline;
     margin-left: 40px;
